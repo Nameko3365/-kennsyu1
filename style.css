@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    height :50px;
+    background-color: #FF9A4B;
+}
+
+.center {
+    width: 960px;
+    margin: 50px auto;
+    display: flex;
+  }
+
+  .box1 {
+    width :300px;
+    background-color: #EEEEEE;
+    margin-right : 30px;
+}
+
+.box2 {
+    width :300px;
+    background-color: #EEEEEE;
+}
+
+
+.image-1 {
+    height: 150px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url(img/flow01.png);
+}
+
+.image-2 {
+    height: 150px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url(img/flow02.png);
+}
+
+.image-3 {
+    height: 150px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url(img/flow03.png);
+}
+
+.step {
+    position: absolute;
+    background-color: #FF9A4B;
+}
+
+.main-title {
+    margin-top: 15px;
+}
+
+.main-bunn {
+    margin-top: 5px;
+}
+
+footer {
+    height : 50px;
+    background-color: #AAAAAA;
+}
+
+@media screen and (max-width: 960px)
+{
+
+    header {
+        width: 960px;
+    }
+ 
+    footer {
+        width: 960px;
+    }
+}
+
+@media  screen and (max-width: 768px)
+{
+
+    header {
+        width: 100%;
+    }
+
+    .center {
+        width: 100%;
+        margin: 50px auto;
+        display: inline-block;
+    }
+
+    .box1 {
+        width : 90%;
+        background-color: #EEEEEE;
+        margin: 0 auto 20px auto;
+   }
+
+   .box2 {
+    width : 90%;
+    background-color: #EEEEEE;
+    margin: 0 auto 20px auto;
+}
+    
+    .image-1 {
+        background-image: url(img/flow01.png);
+        background-size: cover;
+        height: 150px;
+        margin-top:10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .image-2 {
+        background-image: url(img/flow02.png);
+        background-size: cover;
+        height: 150px;
+        margin-top:10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .image-3 {
+        background-image: url(img/flow03.png);
+        background-size: cover;
+        height: 150px;
+        margin-top:10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
